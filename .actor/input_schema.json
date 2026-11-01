@@ -1,0 +1,16 @@
+{
+  "title": "Quote normalizer input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "quotes": {
+      "title": "Quotes (2 to 5)",
+      "type": "array",
+      "editor": "json",
+      "description": "Structured supplier quotes. No PDF or image input. Amounts must already be extracted.",
+      "minItems": 2,
+      "maxItems": 5
+    }
+  },
+  "required": ["quotes"]
+}

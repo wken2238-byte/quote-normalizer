@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "quote-normalizer",
+  "title": "Quote Normalizer",
+  "description": "Turn 2-5 structured supplier quotes into comparable 12-month costs, with an arithmetic trace and an explicit list of what the quotes did not state.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "meta": { "templateId": "python-start" },
+  "input": "./input_schema.json",
+  "storages": { "dataset": "./dataset_schema.json" },
+  "dockerfile": "../Dockerfile"
+}
