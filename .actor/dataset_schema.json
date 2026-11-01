@@ -1,5 +1,4 @@
 {
   "actorSpecification": 1,
-  "fields": {},
-  "views": { "overview": { "title": "Result", "transformation": { "fields": [] }, "display": { "component": "table", "properties": { "columns": ["lowest_total", "quote_count", "term_months", "warnings"] } } } }
+  "fields": {}
 }
