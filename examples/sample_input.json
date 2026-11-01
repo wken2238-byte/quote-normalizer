@@ -1,0 +1,41 @@
+{
+  "quotes": [
+    {
+      "supplier": "Alpha",
+      "currency": "USD",
+      "billing_period": "monthly",
+      "unit_price": 9.5,
+      "quantity": 2,
+      "commitment_months": 12,
+      "fees": [
+        {
+          "label": "setup",
+          "amount": 25
+        }
+      ],
+      "tax_included": false
+    },
+    {
+      "supplier": "Beta",
+      "currency": "USD",
+      "billing_period": "annual",
+      "unit_price": 199,
+      "quantity": 1,
+      "fees": []
+    },
+    {
+      "supplier": "Gamma",
+      "currency": "USD",
+      "billing_period": "monthly",
+      "unit_price": 8,
+      "quantity": 2,
+      "fees": [
+        {
+          "label": "support",
+          "amount": 5,
+          "recurring": true
+        }
+      ]
+    }
+  ]
+}

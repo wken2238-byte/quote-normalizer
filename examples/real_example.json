@@ -1,0 +1,7 @@
+{
+  "quotes": [
+    { "supplier": "Provider A", "currency": "USD", "billing_period": "monthly", "unit_price": 4.5, "quantity": 1, "commitment_months": 12, "fees": [], "tax_included": false },
+    { "supplier": "Provider B", "currency": "USD", "billing_period": "annual", "unit_price": 10.98, "quantity": 1, "fees": [] },
+    { "supplier": "Provider C", "currency": "EUR", "billing_period": "monthly", "unit_price": 5.99, "quantity": 1, "commitment_months": 12, "fees": [ { "label": "setup", "amount": 8.99 } ] }
+  ]
+}
